@@ -117,3 +117,65 @@ The Windows Terminal is a modern, fast, efficient, powerful, and productive term
 Discord is great for playing games and chilling with friends, or even building a worldwide community. Customise your own space to talk, play, and hang out.
 
     Download: https://discord.com/
+
+# Linux / WSL
+## 1. Zsh
+Zsh is a shell designed for interactive use, although it is also a powerful scripting language.
+Install: 
+
+    1. sudo apt install zsh
+    2. zsh --version
+    3. chsh -s $(which zsh) OR sudo lchsh $USER (FEDORA)
+        Note that this will not work if Zsh is not in your authorized shells list (/etc/shells) or if you don't have permission to use chsh. If that's the case you'll need to use a different procedure.
+        If you use lchsh you need to type /bin/zsh to make it your default shell.
+    4. Log out and log back in again to use your new default shell.
+    5. Test that it worked with echo $SHELL. Expected result: /bin/zsh or similar.
+        If nothing happens, type "logout" and login again. This time, when you open the terminal, terminal will open zsh setup. Continue as desired.
+    6. Test with $SHELL --version. Expected result: 'zsh 5.8' or similar
+
+## 2. OhMyZsh
+Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
+### Prerequisites:
+1. Zsh should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and newer). If not pre-installed (run zsh --version to confirm), check the following wiki instructions here: Installing ZSH
+2. curl or wget should be installed
+3. git should be installed (recommended v2.4.11 or higher)
+
+### Basic Installation.
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either *curl*, wget or another similar tool.
+
+curl
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+wget
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+fetch
+```
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### Using Oh My Zsh
+### Plugins
+Oh My Zsh comes with a shitload of plugins for you to take advantage of. You can take a look in the plugins directory and/or the wiki to see what's currently available.
+
+### Enabling Plugins
+Once you spot a plugin (or several) that you'd like to use with Oh My Zsh, you'll need to enable them in the .zshrc file. You'll find the zshrc file in your $HOME directory. Open it with your favorite text editor and you'll see a spot to list all the plugins you want to load.
+```
+vi ~/.zshrc
+```
+For example, this might begin to look like this:
+```
+plugins=(
+  git
+  bundler
+  dotenv
+  macos
+  rake
+  rbenv
+  ruby
+)
+```
