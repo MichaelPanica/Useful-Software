@@ -57,3 +57,53 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.
     Version: 0.88.5
     Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
+
+## 2. Chrome
+Download: https://www.google.com/intl/en_uk/chrome/
+### Extensions.
+    Name: Colour Picker Tool - Geco.
+    Description: Grab colours from web pages, colour picker, colour history.
+    Version: 1.0.10
+    Publisher: geco-picker.com
+Chrome Extension Link: https://chromewebstore.google.com/detail/colour-picker-tool-geco/eokjikchkppnkdipbiggnmlkahcdkikp
+
+    Name: Grammarly: AI Writing and Grammar Checker App
+    Description: Improve your writing with all-in-one assistance—including generative AI, grammar check, and more.
+    Version: 14.1209.0
+    Publisher: grammarly.com
+Chrome Extension Link: https://chromewebstore.google.com/detail/grammarly-ai-writing-and/kbfnbcaeplbcioakkpcpgfkobkghlhen
+
+    Name: Sound Booster - increase volume up
+    Description: Sound Booster helps boost volume video or music on any tab! Increase volume and bass booster, equalizer. Volume control.
+    Version: 1.0.9
+    Publisher: sound-ultimate.com
+Chrome Extension Link: https://chromewebstore.google.com/detail/sound-booster-increase-vo/nmigaijibiabddkkmjhlehchpmgbokfj
+
+## 3. WSL
+**You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11**
+    How to install? 
+        Open terminal (Windows + R > type "cmd", press enter)
+        Write "wsl --install"
+    This command will enable the features necessary to run WSL.
+    If you get "WslRegisterDistribution failed with error: 0x80370102" error, you must enable Virtual Machine Platform in BIOS.
+    More details here: https://learn.microsoft.com/en-us/windows/wsl/install
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Name:
+    Description: 
+    Version: 
+    Publisher: 
