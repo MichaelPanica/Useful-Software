@@ -6,7 +6,7 @@ Useful software a programmer must have. Some of them includes how-to-install ste
 ## 1. Visual Studio Code
 Download: https://code.visualstudio.com/
 ### Themes.
-    *Favorite:*
+*Favorite:*
     Name: Monokai Pro
     Id: monokai.theme-monokai-pro-vscode
     Description: ✨ Professional dark & light theme + icon pack, from the author of the original Monokai color scheme.
