@@ -179,3 +179,40 @@ plugins=(
   ruby
 )
 ```
+### Must have Plugins
+```git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions```
+```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting```
+
+Edit .zshrc to include plugins plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+``` nano .zshrc```
+
+More details about Oh My Zsh (Themes, plugins, etc): https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#using-oh-my-zsh
+
+### Preferred Theme:
+jonathan
+Installing theme: 
+```
+nano .zshrc
+```
+manually replace **ZSH_THEME="robbyrussell"** with desired theme. In our case, it will be jonathan. Output: ZSH_THEME="jonathan"
+```CTRL+X, Y, Enter```
+
+Relog to apply all changes.
+
+## Nerd Fonts.
+https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraMono
+Select desired. 
+In my case it's Regular > Download **FiraMonoNerdFont-Regular.otf**
+Open it, and install it. 
+
+## Powerlevel10k
+
+```git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k```
+
+    nano .zshrc
+    change ZSH_Theme="jonathan" to ZSH_Theme="powerlevel10k/powerlevel10k"
+    CTRL+X, Y, Enter
+    relog & follow the setup.
+    Personal Prefferences: ynn311132234421n1y (Will make sense when running setup)
+    relog.
+
