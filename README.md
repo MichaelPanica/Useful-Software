@@ -81,29 +81,39 @@ Chrome Extension Link: https://chromewebstore.google.com/detail/sound-booster-in
 
 ## 3. WSL
 **You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11**
+    
     How to install? 
-        Open terminal (Windows + R > type "cmd", press enter)
-        Write "wsl --install"
+    Open terminal (Windows + R > type "cmd", press enter)
+    Write "wsl --install"
     This command will enable the features necessary to run WSL.
     If you get "WslRegisterDistribution failed with error: 0x80370102" error, you must enable Virtual Machine Platform in BIOS.
-    More details here: https://learn.microsoft.com/en-us/windows/wsl/install
     
+More details here: https://learn.microsoft.com/en-us/windows/wsl/install
 
+**Must have:** 
+    
+    Windows Subsystem for Linux (https://www.microsoft.com/store/productId/9P9TQF7MRM4R?ocid=pdpshare)
+    Ubuntu (https://www.microsoft.com/store/productId/9PDXGNCFSCZV?ocid=pdpshare)
 
+## 4. Git
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
+Downloads
 
+    Windows x32
+    https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-32-bit.exe
 
+    Windows x64
+    https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe
 
+More details: https://git-scm.com/
 
+## 5. Windows Terminal
+The Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL. Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations.
 
+    Download: https://www.microsoft.com/store/productId/9N0DX20HK701?ocid=pdpshare
 
+## 6. Discord.
+Discord is great for playing games and chilling with friends, or even building a worldwide community. Customise your own space to talk, play, and hang out.
 
-
-
-
-
-
-    Name:
-    Description: 
-    Version: 
-    Publisher: 
+    Download: https://discord.com/
