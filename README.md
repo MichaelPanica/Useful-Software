@@ -7,12 +7,12 @@ Useful software a programmer must have. Some of them includes how-to-install ste
 Download: https://code.visualstudio.com/
 ### Themes.
     Favorite:
-    Name: Monokai Pro
-    Id: monokai.theme-monokai-pro-vscode
-    Description: ✨ Professional dark & light theme + icon pack, from the author of the original Monokai color scheme.
-    Version: 2.0.2
-    Publisher: monokai
-    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
+    Name: Dracula Theme Official
+    Id: dracula-theme.theme-dracula
+    Description: The official Dracula Theme: a dark theme for many editors, shells, and more. 🦇
+    Version: 2.25.1
+    Publisher: Dracula Theme
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
 
     Name: Atom One Dark Theme
     Id: akamud.vscode-theme-onedark
